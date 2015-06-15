@@ -1,0 +1,16 @@
+package com.sackstudios.around;
+
+public class PlaceClass {
+
+	
+	long latitude, longitude;
+	
+	String name;
+	
+	
+	public PlaceClass() {
+		latitude = 0.0;
+		longitude = 0.0;
+	}
+	
+}

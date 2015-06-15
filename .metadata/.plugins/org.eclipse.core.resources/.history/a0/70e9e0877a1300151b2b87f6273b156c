@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="accounting"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="airport"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="amusement_park"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="aquarium"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="art_gallery"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="atm"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bakery"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bank"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bar"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="beauty_salon"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bicycle_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="book_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bowling_alley"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="bus_station"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="cafe"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="campground"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="car_dealer"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="car_rental"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="car_repair"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="car_wash"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="casino"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="cemetery"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="church"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="city_hall"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="clothing_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="convenience_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="courthouse"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="dentist"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="department_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="doctor"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="electrician"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="electronics_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="embassy"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="establishment"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="finance"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="fire_station"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="florist"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="food"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="funeral_home"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="furniture_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="gas_station"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="general_contractor"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="grocery_or_supermarket"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="gym"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="hair_care"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="hardware_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="health"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="hindu_temple"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="home_goods_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="hospital"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="insurance_agency"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="jewelry_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="laundry"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="lawyer"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="library"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="liquor_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="local_government_office"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="locksmith"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="lodging"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="meal_delivery"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="meal_takeaway"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="mosque"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="movie_rental"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="movie_theater"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="moving_company"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="museum"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="night_club"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="painter"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="park"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="parking"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="pet_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="pharmacy"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="physiotherapist"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="place_of_worship"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="plumber"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="police"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="post_office"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="real_estate_agency"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="restaurant"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="roofing_contractor"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="rv_park"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="school"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="shoe_store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="shopping_mall"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="spa"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="stadium"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="storage"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="store"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="subway_station"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="synagogue"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="taxi_stand"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="train_station"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="travel_agency"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="university"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="veterinary_care"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#2b2b41"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:onClick="placeType"
+            android:text="zoo"
+            android:textColor="#ff7373"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+package com.sackstudios.around;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.net.MailTo;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends ActionBarActivity implements LocationListener {
+
+	public String API_KEY = "AIzaSyBVTv1hXh9zyGj23VPur3k-_t0jfDEoiao";
+	public String Radius = "1500";
+	//double lati;
+	//double longi;
+	LocationManager locationManager;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.choice_selection_layout);
+
+		/*locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
+		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0,
+				0, this);*/
+		
+	    locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+
+	    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1,
+	            100, MainActivity.this);
+	}
+
+	@Override
+	public void onLocationChanged(Location location) {
+		//txtLat = (TextView) findViewById(R.id.textview1);
+		//txtLat.setText("Latitude:" + location.getLatitude() + ", Longitude:"
+		//		+ location.getLongitude());
+		//lati = location.getLatitude();
+		//longi = location.getLongitude();
+		
+		//Toast.makeText(getApplicationContext(), ""+lati, 1).show();
+		
+	}
+
+	public void placeType(View v) {
+		TextView tv_cat = (TextView) v;
+		String cat = tv_cat.getText().toString();
+
+		String latitude = "18.621526";
+		String longitude = "73.801664";
+
+		String req = "https://maps.googleapis.com/maps/api/place/search/json?location="
+				+ latitude
+				+ ","
+				+ longitude
+				+ "&radius=3000&types="
+				+ cat
+				+ "&key=" + API_KEY;
+
+		GetPlaceAsynTask gpat = new GetPlaceAsynTask();
+		gpat.execute(req);
+	}
+
+	// police
+	class GetPlaceAsynTask extends AsyncTask<String, String, String> {
+
+		@Override
+		protected String doInBackground(String... params) {
+			Log.d("##", "fail");
+			String x = "";
+			x += HttpManager.getData(params[0]);
+
+			return x;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// tv.setText(result);
+			Log.d("%%%%", result);
+			ArrayList<PlaceClass> ps = new ArrayList<PlaceClass>();
+
+			ps = PlacesParcer.parseGoogleParse(result);
+
+			//Toast.makeText(getApplicationContext(), ps.get(0).getLongitude(), 1)
+			//		.show();
+			String xx = "";
+			for (PlaceClass placeClass : ps) {
+				xx += placeClass.getName() + ";" + placeClass.getLatitude()
+						+ ";" + placeClass.getLongitude() + ";" + "#";
+			}
+
+			Intent intent = new Intent(MainActivity.this,
+					com.raw.arview.ARView.class);
+			intent.putExtra("loc", xx);
+			//intent.putExtra("latitude", lati);
+			//intent.putExtra("longitude", longi);
+			startActivity(intent);
+
+			super.onPostExecute(result);
+		}
+	}
+
+	@Override
+	public void onProviderDisabled(String provider) {
+	Log.d("Latitude","disable");
+	}
+
+	@Override
+	public void onProviderEnabled(String provider) {
+	Log.d("Latitude","enable");
+	}
+
+	@Override
+	public void onStatusChanged(String provider, int status, Bundle extras) {
+	Log.d("Latitude","status");
+	}
+}

@@ -1,0 +1,65 @@
+package com.sackstudios.around;
+
+import java.util.ArrayList;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+
+
+public class MainActivity extends ActionBarActivity {
+
+	public String API_KEY = "AIzaSyBVTv1hXh9zyGj23VPur3k-_t0jfDEoiao";
+	public String Radius = "1500";
+	
+	
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.choice_selection_layout);
+        
+        
+        
+    }
+    
+    public void placeType(View v){
+    	TextView tv_cat = (TextView) findViewById(v.getId());
+    	String cat = tv_cat.getText().toString();
+    	
+    	String latitude = "";
+		String longitude = "";
+		String req = "https://maps.googleapis.com/maps/api/place/search/json?location="
+    				+latitude+","+longitude+"&radius=3000&types=police&key="+API_KEY;
+    }
+    
+    
+  //police
+    class GetPlaceAsynTask extends AsyncTask<String, String, String>{
+
+		@Override
+		protected String doInBackground(String... params) {
+			Log.d("##", "fail");
+			String x= "" ;x+= HttpManager.getData(params[0]);
+			return x;
+		}
+		
+		@Override
+		protected void onPostExecute(String result) {
+		//tv.setText(result);
+			ArrayList<PlaceClass> ps = new ArrayList<PoliceStation>();
+			
+			ps = PlacesParcer.parsePoliceStation(result);
+			
+			DeatilATaskPolice datp = new DeatilATaskPolice();
+			datp.execute(ps);
+						
+			super.onPostExecute(result);
+		}
+    }
+}

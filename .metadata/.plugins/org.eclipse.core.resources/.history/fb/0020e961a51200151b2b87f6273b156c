@@ -1,0 +1,10 @@
+package com.sackstudios.around;
+
+public class PlaceClass {
+
+	String Cat;
+	
+	long latitude;
+	
+	
+}

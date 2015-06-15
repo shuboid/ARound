@@ -1,0 +1,45 @@
+package com.sackstudios.around;
+
+public class PlaceClass {
+
+	
+	String latitude, longitude;
+	String name;
+	
+	
+	public PlaceClass() {
+		latitude = ""+ 0.0;
+		longitude = ""+ 0.0;
+	}
+
+
+	public String getLatitude() {
+		return latitude;
+	}
+
+
+	public void setLatitude(String string) {
+		this.latitude = string;
+	}
+
+
+	public String getLongitude() {
+		return longitude;
+	}
+
+
+	public void setLongitude(long longitude) {
+		this.longitude = longitude;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
